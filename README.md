@@ -2,7 +2,6 @@ This repository contains the Python scripts and example datasets used for proces
 
 The analysis pipeline implements Gaussian Mixture Model (GMM)–based clustering, outlier detection, and Poisson-based concentration calculation to enable the simultaneous quantification of multiple mRNA and protein targets from two-color ddPCR data.
 
-Overview
 The FluoMag-dCoDe data analysis workflow consists of the following key steps:
 1.	Input of raw ddPCR droplet fluorescence data, which consists of two-dimensional fluorescence amplitudes (FAM and HEX) exported from Bio-Rad QuantaSoft software.
 2.	Definition of fluorescence-coded cluster locations, where the cluster representing each target are predefined using pooled synthetic fluorescence-coded DNA templates (for mRNA targets) and standard-curve measurements (for protein targets).
